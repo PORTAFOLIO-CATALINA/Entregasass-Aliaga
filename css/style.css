@@ -306,3 +306,54 @@ button{
         width: 100%;
     }
 }
+.miestilo{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: violet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Libro{
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+}
+
+@media (min-width:576px){
+    .miestilo{
+        background-color: rgb(104, 60, 104);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .miestilo h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width:768px){
+    .miestilo h1{
+        text-align: center;
+}
+
+    .Libro{
+        width: 500px;
+        height: 500px;
+        background-color: yellowgreen;
+    }
+}
+
+@media (min-width: 992px) {
+    .Libro{
+        width: 250px;
+        height: 250px;
+        background-color: aqua;
+    }
+}
+
+@media (min-width:1200px){
+    .miestilo{
+        background-color: thistle;
+    }
+}
